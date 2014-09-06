@@ -1,0 +1,116 @@
+.navbar .container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: url('../img/logo_una_trans_h60.png') !important;
+	background-repeat: no-repeat !important;
+	background-position-x: 15px !important;
+	background-position-y: 5px !important;
+}
+
+.navbar-inverse {
+	background-color: #000000;
+}
+
+@media ( min-width : 768px) {
+	.navbar-wrapper .navbar {
+		border-radius: 20px;
+	}
+	.navbar-nav li {
+		font-size: 14px;
+	}
+}
+
+.navbar-brand {
+	width: 70px;
+}
+
+#myCarousel {
+	background: #0f1a1e; /* Old browsers */
+	background: -moz-linear-gradient(left, #0f1a1e 0%, #15212d 15%, #15212d 85%, #0f1a1e
+		100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #0f1a1e),
+		color-stop(15%, #15212d), color-stop(85%, #15212d),
+		color-stop(100%, #0f1a1e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #0f1a1e 0%, #15212d 15%, #15212d 85%,
+		#0f1a1e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #0f1a1e 0%, #15212d 15%, #15212d 85%, #0f1a1e
+		100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #0f1a1e 0%, #15212d 15%, #15212d 85%, #0f1a1e
+		100%); /* IE10+ */
+	background: linear-gradient(to right, #0f1a1e 0%, #15212d 15%, #15212d 85%, #0f1a1e
+		100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f1a1e',
+		endColorstr='#0f1a1e', GradientType=1); /* IE6-9 */
+	
+	/* 	0f1a1e */
+	/* 	15212d */
+}
+
+.carousel .item {
+	background-color: transparent;
+}
+
+.item img {
+	min-width: 0%;
+}
+
+.imageSlide {
+	margin: 0px auto;
+	display: block;
+}
+
+.carousel, .carousel .item {
+	height: 400px;
+}
+.col-lg-3 img {
+	
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
+		box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
+}
+ 
+
+@media screen and (min-width: 768px) {
+	.carousel-caption {
+		right: 10%;
+		left: 10%;
+		padding-bottom: 30px;
+		text-align: left;
+	}
+	.carousel-caption img, .carousel-caption .illustratedMessage {
+		float: left;
+		width: 45%;
+	}
+	.navbar, .carousel-caption img {
+		-webkit-box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.25);
+		box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.25);
+	}
+	.carousel-caption .illustratedMessage {
+		padding-left: 20px;
+	}
+	.carousel-caption .message {
+		margin: 0px auto;
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.carousel-caption img, .carousel-caption .illustratedMessage {
+		float: none;
+		width: 90%;
+	}
+	.carousel-caption img {
+		padding-top: 10%;
+	}
+	h1, .h1 {
+		font-size: 160%;
+	}
+}
+
+.col-lg-3{
+	text-align: center;
+}
+.col-lg-3 p{
+	text-align: justify;
+}
