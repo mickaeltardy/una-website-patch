@@ -1,3 +1,27 @@
+.carousel-caption {
+	bottom: 0px;
+	vertical-align: center;
+}
+
+}
+.carousel-indicators .active, .carousel-indicators li {
+	width: 8px;
+	height: 8px;
+}
+
+.carousel-indicators {
+	bottom: -5px;
+}
+
+h1, .h1 {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.carousel-caption p {
+	font-size: 130%;
+}
+
 .navbar .container {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -9,15 +33,6 @@
 
 .navbar-inverse {
 	background-color: #000000;
-}
-
-@media ( min-width : 768px) {
-	.navbar-wrapper .navbar {
-		border-radius: 20px;
-	}
-	.navbar-nav li {
-		font-size: 14px;
-	}
 }
 
 .navbar-brand {
@@ -41,7 +56,7 @@
 		100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f1a1e',
 		endColorstr='#0f1a1e', GradientType=1); /* IE6-9 */
-	
+
 	/* 	0f1a1e */
 	/* 	15212d */
 }
@@ -52,6 +67,10 @@
 
 .item img {
 	min-width: 0%;
+	position: relative;
+	display: block;
+	margin-bottom: 0%;
+	bottom: 0%;
 }
 
 .imageSlide {
@@ -62,15 +81,20 @@
 .carousel, .carousel .item {
 	height: 400px;
 }
+
 .col-lg-3 img {
-	
-		-webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
-		-moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
-		box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.25);
 }
- 
 
 @media screen and (min-width: 768px) {
+	.navbar-wrapper .navbar {
+		border-radius: 20px;
+	}
+	.navbar-nav li {
+		font-size: 90%;
+	}
 	.carousel-caption {
 		right: 10%;
 		left: 10%;
@@ -79,7 +103,7 @@
 	}
 	.carousel-caption img, .carousel-caption .illustratedMessage {
 		float: left;
-		width: 45%;
+		width: 50%;
 	}
 	.navbar, .carousel-caption img {
 		-webkit-box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.25);
@@ -96,6 +120,10 @@
 }
 
 @media screen and (max-width: 767px) {
+	
+	.navbar-nav li {
+		font-size: 120%;
+	}
 	.carousel-caption img, .carousel-caption .illustratedMessage {
 		float: none;
 		width: 90%;
@@ -103,14 +131,21 @@
 	.carousel-caption img {
 		padding-top: 10%;
 	}
-	h1, .h1 {
-		font-size: 160%;
+	.btn-lg, .btn-group-lg>.btn {
+		padding: 4px 14px;
+		font-size: 16px;
+		line-height: 1.33;
+		border-radius: 6px;
+	}
+	.col-lg-3 p {
+		text-align: justify;
+		font-size: 100%;
+	}
+	.carousel, .carousel .item {
+		height: 450px;
 	}
 }
 
-.col-lg-3{
+.col-lg-3 {
 	text-align: center;
-}
-.col-lg-3 p{
-	text-align: justify;
-}
+}	
